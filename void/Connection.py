@@ -1,5 +1,5 @@
 import psycopg2
-from Config import config
+from void.Config import config
 
 def connect():
     """ Connect to the PostgreSQL database server """
