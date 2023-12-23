@@ -1,5 +1,7 @@
 import psycopg2
 from configparser import ConfigParser
+from Account_Type import Account_Type
+from Account import Account
 
 class Database:
     def __init__(self, filename='database.ini', section='postgresql'):
