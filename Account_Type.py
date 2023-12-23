@@ -5,6 +5,6 @@ class Account_Type:
         self.__description = description
 
     def __str__(self):
-        return """Account Type ID: {}
-        Account Type Name: {}
-        Account Type Description: {}""".format(self.__id, self.__name, self.__description)
+        return """Account Type ID: {0}
+        Account Type Name: {1}
+        Account Type Description: {2}""".format(self.__id, self.__name, self.__description)
